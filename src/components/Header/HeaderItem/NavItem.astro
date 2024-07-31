@@ -1,0 +1,18 @@
+---
+interface Props {
+    src?: string;
+    text: string;
+}
+
+const { src, text } = Astro.props;
+---
+
+<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+<li>
+    <a
+        href={src}
+        target="_self"
+        class="text-xs font-medium text-gray-600 transition-all hover:text-black active:text-gray-600 md:text-base"
+        >{text}</a
+    >
+</li>

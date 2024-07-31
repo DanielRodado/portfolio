@@ -1,0 +1,25 @@
+---
+import NavItem from "./HeaderItem/NavItem.astro";
+---
+
+<header
+    class="sticky top-0 z-30 w-full border-b border-transparent bg-gray max-md:border-gray-100"
+>
+    <div
+        class="mx-auto flex w-full max-w-7xl items-center justify-center p-2 md:px-8 md:justify-between md:p-4"
+    >
+        <a target="_self" class="hidden md:block" href="/"
+            ><h3
+                class="text-2xl md:text-3xl tracking-[-0.02em] text-gray-900 font-bold"
+            >
+                &lt;DR /&gt;
+            </h3></a
+        >
+        <ul class="flex list-none items-center gap-6">
+            <NavItem src="#experiencia" text="Experiencia" />
+            <NavItem src="#proyectos" text="Proyectos" />
+            <NavItem src="#sobre-mi" text="Sobre mí" />
+            <NavItem src="mailto:danielrodado2@gmail.com" text="Contacto" />
+        </ul>
+    </div>
+</header>
