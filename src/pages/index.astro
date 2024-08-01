@@ -1,6 +1,46 @@
 ---
+import Badge from "../components/Badge.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Portfolio Daniel">
+<Layout title="Portfolio Daniel Rodado - Desarrollador Web Full Stack Java">
+    <section class="w-full mx-auto py-32 md:max-w-screen-md">
+        <div class="flex items-center gap-x-4 mb-4">
+            <img class="w-20 rounded-full" src="/img-personal.webp" alt="Daniel Rodado webp">
+            <a 
+                href="https://www.linkedin.com/in/daniel-rodado-b24432210/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <Badge>Disponible para trabajar</Badge>
+            </a>
+        </div>
+        <h2 class="text-white text-4xl font-bold">Hey, soy Daniel</h2>
+        <h3 class="text-xl text-pretty opacity-80 my-4">
+            Soy un Desarrollador Web Full Stack. He trabajado en proyectos
+            completos, desde el diseño hasta la imprementación, implementando
+            servicios RESTful y gestionando bases de datos con PostgreSQL.
+            Formado en metodologías ágiles como SCRUM, colaboro eficientemente
+            en equipos multidisciplinarios. Me adapto rápidamente a nuevas
+            tecnologías y estoy comprometido con la entrega de soluciones de
+            alta calidad.
+        </h3>
+        <div class="flex items-center gap-2 opacity-90">
+            <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+                    d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path><path
+                    d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+                ></path></svg
+            >
+            <p class="text-base">Barranquilla, Colombia</p>
+        </div>
+    </section>
 </Layout>
