@@ -139,6 +139,11 @@
                 "name": "Astro",
                 "class": "bg-purple-600 text-white"
             },
+            
+            {
+                "name": "Javascript",
+                "class": "bg-yellow-500 text-black"
+            },
             {
                 "name": "HTML",
                 "class": "bg-orange-500 text-white"
