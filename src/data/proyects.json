@@ -136,7 +136,7 @@
                 "class": "bg-purple-600 text-white"
             },
             {
-                "technology": "TailwindCSS",
+                "technology": "Tailwind CSS",
                 "class": "bg-teal-500 text-white"
             }
         ],
