@@ -76,7 +76,7 @@
         "deploy": false
     },
     {
-        "proyectName": "Amazing Evemts",
+        "proyectName": "Amazing Events",
         "typeProyect": "Consumo de API",
         "technologies": [
             {
