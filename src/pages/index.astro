@@ -1,5 +1,6 @@
 ---
 import Badge from "../components/Badge.astro";
+import HeadlineContainer from "../components/Main/HeadlineContainer.astro";
 import SectionContainer from "../components/Main/SectionContainer.astro";
 import SocialPill from "../components/SocialPill.astro";
 import GitHubIcon from "../components/icons/GitHubIcon.astro";
@@ -26,7 +27,9 @@ import Layout from "../layouts/Layout.astro";
                 <Badge>Disponible para trabajar</Badge>
             </a>
         </div>
-        <h2 class="text-white text-3xl sm:text-4xl font-bold md:text-5xl">Hey, soy Daniel</h2>
+        <h2 class="text-white text-3xl sm:text-4xl font-bold md:text-5xl">
+            Hey, soy Daniel
+        </h2>
         <h3
             class="text-base text-gray-300 text-balance [&>strong]:text-yellow-200 [&>strong]:font-semibold sm:text-lg md:text-xl"
         >
@@ -79,9 +82,10 @@ import Layout from "../layouts/Layout.astro";
         </div>
     </SectionContainer>
     <SectionContainer id="proyectos">
-        <div class="flex items-center gap-4">
+        <HeadlineContainer>
             <svg
                 class="text-white size-5 sm:size-6 md:size-[1.875rem]"
+                slot="svg"
                 width="34"
                 height="34"
                 viewBox="0 0 24 24"
@@ -94,10 +98,8 @@ import Layout from "../layouts/Layout.astro";
                     d="M7 8l-4 4l4 4"></path><path d="M17 8l4 4l-4 4"
                 ></path><path d="M14 4l-4 16"></path></svg
             >
-            <h2 id="proyectos" class="text-xl font-bold text-white sm:text-2xl md:text-3xl">
-                Proyectos
-            </h2>
-        </div>
+            Proyectos
+        </HeadlineContainer>
         <ul class="relative mt-16"></ul>
     </SectionContainer>
 </Layout>
