@@ -11,7 +11,7 @@ import Layout from "../layouts/Layout.astro";
     title="Portfolio Daniel Rodado - Desarrollador Web Full Stack Java"
     description="Full Stack Developer especializado en Java, Spring Boot, JavaScript y Vue.js. Con experiencia en proyectos integrales, desarrollo de servicios RESTful y gestión de bases de datos PostgreSQL. Formado en metodologías ágiles como SCRUM, con capacidad para adaptarse rápidamente a nuevas tecnologías y compromiso con soluciones de alta calidad."
 >
-    <SectionContainer className="flex flex-col gap-y-4 py-10 md:py-32 md:text-5xl">
+    <SectionContainer className="flex flex-col gap-y-4 py-10 md:py-32">
         <div class="flex items-center gap-x-4">
             <img
                 class="w-20 rounded-full"
@@ -26,9 +26,9 @@ import Layout from "../layouts/Layout.astro";
                 <Badge>Disponible para trabajar</Badge>
             </a>
         </div>
-        <h2 class="text-white text-4xl font-bold">Hey, soy Daniel</h2>
+        <h2 class="text-white text-3xl sm:text-4xl font-bold md:text-5xl">Hey, soy Daniel</h2>
         <h3
-            class="text-xl text-gray-300 text-balance [&>strong]:text-yellow-200 [&>strong]:font-semibold"
+            class="text-base text-gray-300 text-balance [&>strong]:text-yellow-200 [&>strong]:font-semibold sm:text-lg md:text-xl"
         >
             Soy un <strong>Desarrollador Web Full Stack</strong>. He trabajado
             en proyectos completos,
@@ -61,6 +61,7 @@ import Layout from "../layouts/Layout.astro";
         </div>
         <div class="flex items-center gap-2 opacity-90 text-white">
             <svg
+                class="size-4 md:size-6"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -74,13 +75,13 @@ import Layout from "../layouts/Layout.astro";
                     d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
                 ></path></svg
             >
-            <p class="text-base">Barranquilla, Colombia 🇨🇴</p>
+            <p class="text-sm md:text-base">Barranquilla, Colombia 🇨🇴</p>
         </div>
     </SectionContainer>
     <SectionContainer id="proyectos">
         <div class="flex items-center gap-4">
             <svg
-                class="text-white"
+                class="text-white size-5 sm:size-6 md:size-[1.875rem]"
                 width="34"
                 height="34"
                 viewBox="0 0 24 24"
@@ -93,7 +94,7 @@ import Layout from "../layouts/Layout.astro";
                     d="M7 8l-4 4l4 4"></path><path d="M17 8l4 4l-4 4"
                 ></path><path d="M14 4l-4 16"></path></svg
             >
-            <h2 id="proyectos" class="text-3xl font-bold text-white">
+            <h2 id="proyectos" class="text-xl font-bold text-white sm:text-2xl md:text-3xl">
                 Proyectos
             </h2>
         </div>
