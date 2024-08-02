@@ -1,15 +1,17 @@
 ---
 import Badge from "../components/Badge.astro";
-import Pill from "../components/Pill.astro";
+import SectionContainer from "../components/Main/SectionContainer.astro";
+import SocialPill from "../components/SocialPill.astro";
 import GitHubIcon from "../components/icons/GitHubIcon.astro";
 import LinkedInIcon from "../components/icons/LinkedInIcon.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Portfolio Daniel Rodado - Desarrollador Web Full Stack Java">
-    <section
-        class="w-full mx-auto flex flex-col gap-y-4 py-32 px-4 md:px-0 md:max-w-screen-md"
-    >
+<Layout
+    title="Portfolio Daniel Rodado - Desarrollador Web Full Stack Java"
+    description="Full Stack Developer especializado en Java, Spring Boot, JavaScript y Vue.js. Con experiencia en proyectos integrales, desarrollo de servicios RESTful y gestión de bases de datos PostgreSQL. Formado en metodologías ágiles como SCRUM, con capacidad para adaptarse rápidamente a nuevas tecnologías y compromiso con soluciones de alta calidad."
+>
+    <SectionContainer className="flex flex-col gap-y-4 py-10 md:py-32 md:text-5xl">
         <div class="flex items-center gap-x-4">
             <img
                 class="w-20 rounded-full"
@@ -26,7 +28,7 @@ import Layout from "../layouts/Layout.astro";
         </div>
         <h2 class="text-white text-4xl font-bold">Hey, soy Daniel</h2>
         <h3
-            class="text-xl text-gray-300 text-pretty [&>strong]:text-yellow-200 [&>strong]:font-semibold"
+            class="text-xl text-gray-300 text-balance [&>strong]:text-yellow-200 [&>strong]:font-semibold"
         >
             Soy un <strong>Desarrollador Web Full Stack</strong>. He trabajado
             en proyectos completos,
@@ -44,18 +46,18 @@ import Layout from "../layouts/Layout.astro";
             >.
         </h3>
         <div class="flex gap-4">
-            <Pill
+            <SocialPill
                 href="https://www.linkedin.com/in/daniel-rodado"
                 socialNetwork="LinkedIn"
             >
                 <LinkedInIcon />
-            </Pill>
-            <Pill
+            </SocialPill>
+            <SocialPill
                 href="https://www.github.com/DanielRodado/"
                 socialNetwork="GitHub"
             >
                 <GitHubIcon />
-            </Pill>
+            </SocialPill>
         </div>
         <div class="flex items-center gap-2 opacity-90 text-white">
             <svg
@@ -74,7 +76,29 @@ import Layout from "../layouts/Layout.astro";
             >
             <p class="text-base">Barranquilla, Colombia 🇨🇴</p>
         </div>
-    </section>
+    </SectionContainer>
+    <SectionContainer id="proyectos">
+        <div class="flex items-center gap-4">
+            <svg
+                class="text-white"
+                width="34"
+                height="34"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+                    d="M7 8l-4 4l4 4"></path><path d="M17 8l4 4l-4 4"
+                ></path><path d="M14 4l-4 16"></path></svg
+            >
+            <h2 id="proyectos" class="text-3xl font-bold text-white">
+                Proyectos
+            </h2>
+        </div>
+        <ul class="relative mt-16"></ul>
+    </SectionContainer>
 </Layout>
 
 <!-- Soy un <strong>Desarrollador Web Full Stack</strong>. 
