@@ -2,33 +2,33 @@
     {
         "proyectName": "WineShop",
         "typeProyect": "E-commerce",
-        "tecnologies": [
+        "technologies": [
             {
-                "tecnologie": "Java",
+                "technology": "Java",
                 "class": "bg-red-700 text-white"
             },
             {
-                "tecnologie": "Spring",
+                "technology": "Spring",
                 "class": "bg-green-500 text-white"
             },
             {
-                "tecnologie": "PostgreSQL",
+                "technology": "PostgreSQL",
                 "class": "bg-blue-500 text-white"
             },
             {
-                "tecnologie": "Javascript",
+                "technology": "Javascript",
                 "class": "bg-yellow-500 text-black"
             },
             {
-                "tecnologie": "Vue.js",
+                "technology": "Vue.js",
                 "class": "bg-green-400 text-white"
             },
             {
-                "tecnologie": "HTML",
+                "technology": "HTML",
                 "class": "bg-orange-500 text-white"
             },
             {
-                "tecnologie": "CSS",
+                "technology": "CSS",
                 "class": "bg-blue-400 text-white"
             }
         ],
@@ -40,33 +40,33 @@
     {
         "proyectName": "Finovate-bank",
         "typeProyect": "Homebanking",
-        "tecnologies": [
+        "technologies": [
             {
-                "tecnologie": "Java",
+                "technology": "Java",
                 "class": "bg-red-700 text-white"
             },
             {
-                "tecnologie": "Spring",
+                "technology": "Spring",
                 "class": "bg-green-500 text-white"
             },
             {
-                "tecnologie": "PostgreSQL",
+                "technology": "PostgreSQL",
                 "class": "bg-blue-500 text-white"
             },
             {
-                "tecnologie": "Javascript",
+                "technology": "Javascript",
                 "class": "bg-yellow-500 text-black"
             },
             {
-                "tecnologie": "Vue.js",
+                "technology": "Vue.js",
                 "class": "bg-green-400 text-white"
             },
             {
-                "tecnologie": "HTML",
+                "technology": "HTML",
                 "class": "bg-orange-500 text-white"
             },
             {
-                "tecnologie": "CSS",
+                "technology": "CSS",
                 "class": "bg-blue-400 text-white"
             }
         ],
@@ -78,21 +78,21 @@
     {
         "proyectName": "Amazing Evemts",
         "typeProyect": "Consumo de API",
-        "tecnologies": [
+        "technologies": [
             {
-                "tecnologie": "Javascript",
+                "technology": "Javascript",
                 "class": "bg-yellow-500 text-black"
             },
             {
-                "tecnologie": "Vue.js",
+                "technology": "Vue.js",
                 "class": "bg-green-400 text-white"
             },
             {
-                "tecnologie": "HTML",
+                "technology": "HTML",
                 "class": "bg-orange-500 text-white"
             },
             {
-                "tecnologie": "CSS",
+                "technology": "CSS",
                 "class": "bg-blue-400 text-white"
             }
         ],
@@ -104,21 +104,21 @@
     {
         "proyectName": "Rick And Morty Info",
         "typeProyect": "Consumo de API",
-        "tecnologies": [
+        "technologies": [
             {
-                "tecnologie": "Javascript",
+                "technology": "Javascript",
                 "class": "bg-yellow-500 text-black"
             },
             {
-                "tecnologie": "Vue.js",
+                "technology": "Vue.js",
                 "class": "bg-green-400 text-white"
             },
             {
-                "tecnologie": "HTML",
+                "technology": "HTML",
                 "class": "bg-orange-500 text-white"
             },
             {
-                "tecnologie": "CSS",
+                "technology": "CSS",
                 "class": "bg-blue-400 text-white"
             }
         ],
@@ -130,13 +130,13 @@
     {
         "proyectName": "Social Media Dashborad",
         "typeProyect": "Darkmode",
-        "tecnologies": [
+        "technologies": [
             {
-                "tecnologie": "Astro",
+                "technology": "Astro",
                 "class": "bg-purple-600 text-white"
             },
             {
-                "tecnologie": "TailwindCSS",
+                "technology": "TailwindCSS",
                 "class": "bg-teal-500 text-white"
             }
         ],
