@@ -9,10 +9,10 @@ const { href, socialNetwork } = Astro.props;
 
 <a
     href={href}
-    role="button"
+    role="link"
     target="_blank"
     rel="noopener noreferrer nofollow"
-    class="flex items-center gap-1 text-gray-900 bg-white border border-gray-300 transition ease-in focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-1 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 sm:py-1 md:text-base md:px-3 md:gap-2"
+    class="flex items-center gap-1 text-gray-900 bg-white border border-gray-300 transition ease-in focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-1 sm:py-1 md:text-base md:px-3 md:gap-2"
 >
     <slot />
     {socialNetwork}

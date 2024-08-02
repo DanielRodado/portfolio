@@ -1,6 +1,7 @@
 ---
 import Badge from "../components/Badge.astro";
 import HeadlineContainer from "../components/Main/HeadlineContainer.astro";
+import Proyect from "../components/Main/Proyect/Proyect.astro";
 import SectionContainer from "../components/Main/SectionContainer.astro";
 import SocialPill from "../components/SocialPill.astro";
 import GitHubIcon from "../components/icons/GitHubIcon.astro";
@@ -100,7 +101,9 @@ import Layout from "../layouts/Layout.astro";
             >
             Proyectos
         </HeadlineContainer>
-        <ul class="relative mt-16"></ul>
+        <ul class="flex flex-col gap-4 mt-16">
+            <Proyect />
+        </ul>
     </SectionContainer>
 </Layout>
 

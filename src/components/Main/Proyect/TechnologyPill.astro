@@ -1,0 +1,14 @@
+---
+interface Props {
+    className: string;
+    technology: string;
+}
+const { className, technology } = Astro.props;
+---
+
+<li>
+    <span class=`flex gap-x-2 rounded-full text-xs ${className} py-1 px-2`>
+        <img class="size-4" src={`/svg/${technology.toLowerCase()}.svg`} alt={`${technology.toLowerCase()}.svg`}>
+        {technology}
+    </span>
+</li>
