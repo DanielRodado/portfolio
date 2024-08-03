@@ -147,7 +147,7 @@
         "description": "Desarrollé una dashboard de social media usando Astro y TailwindCSS. El proyecto incluye modo oscuro y se enfoca en mostrar estadísticas clave de redes sociales. La interfaz es responsive y ofrece una experiencia de usuario moderna y atractiva.",
         "githubRepository": "https://github.com/DanielRodado/social-media-dashboard",
         "linkToSite": "https://social-media-dashboard-daniel-dev.vercel.app/",
-        "image": "/images/proyects/dashboard-dark.png",
+        "image": "/images/proyects/dashboard.png",
         "deploy": true
     }
 ]
