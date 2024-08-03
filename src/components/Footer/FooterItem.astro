@@ -1,14 +1,6 @@
----
-interface Props {
-    href: string;
-}
-
-const { href } = Astro.props;
----
-
 <li>
     <a
-        href={href}
+        {...Astro.props}
         rel="noopener noreferrer nofollow"
         class="hover:underline me-4 text-sm md:me-6"
     >
