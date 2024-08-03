@@ -1,4 +1,5 @@
 ---
+import Footer from '../components/Footer/Footer.astro';
 import Header from '../components/Header/Header.astro';
 import '@fontsource-variable/onest';
 
@@ -26,6 +27,7 @@ const { title, description } = Astro.props;
 		<main>
 			<slot />
 		</main>
+		<Footer />
 	</body>
 </html>
 <style is:global>
