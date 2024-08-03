@@ -4,7 +4,8 @@ import HeadlineContainer from "../components/Main/HeadlineContainer.astro";
 import Proyect from "../components/Main/Proyect/Proyect.astro";
 import SectionContainer from "../components/Main/SectionContainer.astro";
 import SocialPill from "../components/SocialPill.astro";
-import Code from "../components/icons/Code.astro";
+import CodeIcon from "../components/icons/CodeIcon.astro";
+import ProyectIcon from "../components/icons/ProyectIcon.astro";
 import Person from "../components/icons/Person.astro";
 import GitHubIcon from "../components/icons/GitHubIcon.astro";
 import LinkedInIcon from "../components/icons/LinkedInIcon.astro";
@@ -15,7 +16,7 @@ import Layout from "../layouts/Layout.astro";
     title="Portfolio Daniel Rodado - Desarrollador Web Full Stack Java"
     description="Full Stack Developer especializado en Java, Spring Boot, JavaScript y Vue.js. Con experiencia en proyectos integrales, desarrollo de servicios RESTful y gestión de bases de datos PostgreSQL. Formado en metodologías ágiles como SCRUM, con capacidad para adaptarse rápidamente a nuevas tecnologías y compromiso con soluciones de alta calidad."
 >
-    <SectionContainer className="flex flex-col gap-y-4 py-10 md:py-32">
+    <SectionContainer className="flex flex-col gap-y-4 pt-10 md:pt-32">
         <div class="flex items-center gap-x-4">
             <img
                 class="w-20 rounded-full"
@@ -86,14 +87,20 @@ import Layout from "../layouts/Layout.astro";
     </SectionContainer>
     <SectionContainer id="proyectos">
         <HeadlineContainer>
-            <Code slot="svg" />
+            <ProyectIcon slot="svg" />
             Proyectos
         </HeadlineContainer>
         <ul class="flex flex-col items-center gap-4 md:gap-8 mt-10">
             <Proyect />
         </ul>
     </SectionContainer>
-    <SectionContainer id="sobre-mi" className="mt-24">
+    <SectionContainer id="habilidades">
+        <HeadlineContainer>
+            <CodeIcon slot="svg" />
+            Habilidades
+        </HeadlineContainer>
+    </SectionContainer>
+    <SectionContainer id="sobre-mi">
         <HeadlineContainer>
             <Person slot="svg" /> 
             Sobre mí
