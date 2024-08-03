@@ -79,7 +79,7 @@
     },
     {
         "proyectName": "Amazing Events",
-        "typeProyect": "Consumo de API",
+        "typeProyect": "Event Listing",
         "technologies": [
             {
                 "name": "Javascript",
@@ -106,7 +106,7 @@
     },
     {
         "proyectName": "Rick And Morty Info",
-        "typeProyect": "Consumo de API",
+        "typeProyect": "Character Information",
         "technologies": [
             {
                 "name": "Javascript",
@@ -133,7 +133,7 @@
     },
     {
         "proyectName": "Social Media Dashborad",
-        "typeProyect": "Darkmode",
+        "typeProyect": "Dashboard",
         "technologies": [
             {
                 "name": "Astro",
