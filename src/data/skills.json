@@ -32,6 +32,10 @@
         "docs": "https://tailwindcss.com/"
     },
     {
+        "technology": "Bootstrap",
+        "docs": "https://getbootstrap.com/"
+    },
+    {
         "technology": "Astro",
         "docs": "https://astro.build/"
     }

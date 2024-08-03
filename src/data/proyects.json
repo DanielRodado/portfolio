@@ -30,6 +30,10 @@
             {
                 "name": "CSS",
                 "class": "bg-blue-400 text-white"
+            },
+            {
+                "name": "Bootstrap",
+                "class": "bg-purple-900 text-white"
             }
         ],
         "description": "En colaboración con un equipo, desarrollamos una tienda en línea de vinos que permite a los usuarios explorar, filtrar y comprar una amplia selección de productos. La plataforma ofrece una experiencia de compra intuitiva, con un diseño enfocado en la facilidad de navegación y la presentación detallada de los productos.",
@@ -69,6 +73,10 @@
             {
                 "name": "CSS",
                 "class": "bg-blue-400 text-white"
+            },
+            {
+                "name": "Bootstrap",
+                "class": "bg-purple-900 text-white"
             }
         ],
         "description": "Desarrollé una aplicación de homebanking que permite a los usuarios gestionar sus cuentas, realizar prestamos y pagarlos, realizar transferencias y consultar el historial de transacciones.",
@@ -96,6 +104,10 @@
             {
                 "name": "CSS",
                 "class": "bg-blue-400 text-white"
+            },
+            {
+                "name": "Bootstrap",
+                "class": "bg-purple-900 text-white"
             }
         ],
         "description": "Desarrollé un sitio web para explorar eventos pasados y futuros, con detalles completos sobre cada uno. La interfaz ofrece una navegación intuitiva para una fácil visualización de eventos.",
