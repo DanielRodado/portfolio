@@ -91,7 +91,7 @@ import Layout from "../layouts/Layout.astro";
             <ProyectIcon slot="svg" />
             Proyectos
         </HeadlineContainer>
-        <ul class="flex flex-col items-center gap-4 md:gap-8 mt-10">
+        <ul class="flex flex-col items-center gap-4 md:gap-8">
             <Proyect />
         </ul>
     </SectionContainer>
@@ -100,15 +100,41 @@ import Layout from "../layouts/Layout.astro";
             <CodeIcon slot="svg" />
             Habilidades
         </HeadlineContainer>
-        <div class="grid grid-cols-3 gap-y-4 mt-10 md:grid-cols-6 md:gap-y-8 lg:gap-y-12">
+        <div
+            class="grid grid-cols-3 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:gap-y-12"
+        >
             <Skill />
         </div>
     </SectionContainer>
     <SectionContainer id="sobre-mi">
         <HeadlineContainer>
-            <Person slot="svg" /> 
+            <Person slot="svg" />
             Sobre mí
         </HeadlineContainer>
+        <div class="[&>p]:text-gray-300 [&>p]:text-balance [&>p]:mb-4 [&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono lg:pr-36">
+            <p>
+                Desde niño, siempre he tenido curiosidad por la tecnología. Mi
+                primer encuentro con la programación fue cuando tuve mi primera
+                computadora, a los 15 años.
+            </p>
+            <p>
+                En mi tiempo libre, disfruto explorando nuevas herramientas y
+                frameworks para construir nuevos proyectos. <strong>Me gusta colaborar
+                con otros desarrolladores y aprender de sus enfoques y
+                experiencias</strong>. Además, me gusta mantenerme activo y pasar tiempo
+                al aire libre.
+            </p>
+            <p>
+                Valoro la educación continua y el crecimiento profesional.
+                Siempre busco oportunidades para ampliar mis conocimientos y
+                aprender continuamente nuevas técnicas para mejorar mis
+                habilidades. <strong>Mi compromiso es mejorar cada día y ofrecer el
+                mejor trabajo posible en cada proyecto en el que participo</strong>.
+            </p>
+            <p>
+                Simplemente me gusta hacer lo que hago.
+            </p>
+        </div>
     </SectionContainer>
 </Layout>
 
