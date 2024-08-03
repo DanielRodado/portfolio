@@ -1,0 +1,22 @@
+---
+interface Props {
+    href: string;
+    technology: string;
+}
+
+const { href, technology } = Astro.props;
+---
+
+<div class="flex flex-col items-center gap-2">
+    <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href={href}
+        ><img
+            src={`/svg/${technology.toLowerCase()}.svg`}
+            alt={technology}
+            loading="lazy"
+            class="bg-transparent size-8 sm:size-12 md:size-16 transition-transform duration-300 md:hover:scale-110"
+        /></a
+    ><p class="text-base text-gray-400 md:text-lg">{technology}</p>
+</div>

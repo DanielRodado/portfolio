@@ -1,6 +1,7 @@
 ---
 import Badge from "../components/Badge.astro";
 import HeadlineContainer from "../components/Main/HeadlineContainer.astro";
+import Skill from "../components/Main/Skill/Skill.astro";
 import Proyect from "../components/Main/Proyect/Proyect.astro";
 import SectionContainer from "../components/Main/SectionContainer.astro";
 import SocialPill from "../components/SocialPill.astro";
@@ -99,6 +100,9 @@ import Layout from "../layouts/Layout.astro";
             <CodeIcon slot="svg" />
             Habilidades
         </HeadlineContainer>
+        <div class="grid grid-cols-3 gap-y-4 mt-10 md:grid-cols-6 md:gap-y-8 lg:gap-y-12">
+            <Skill />
+        </div>
     </SectionContainer>
     <SectionContainer id="sobre-mi">
         <HeadlineContainer>

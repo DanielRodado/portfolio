@@ -1,0 +1,38 @@
+[
+    {
+        "technology": "Java",
+        "docs": "https://docs.oracle.com/en/java/"
+    },
+    {
+        "technology": "Spring",
+        "docs": "https://spring.io/"
+    },
+    {
+        "technology": "PostgreSQL",
+        "docs": "https://www.postgresql.org/"
+    },
+    {
+        "technology": "Javascript",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+        "technology": "Vue.js",
+        "docs": "https://vuejs.org/"
+    },
+    {
+        "technology": "HTML",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+        "technology": "CSS",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+        "technology": "TailwindCSS",
+        "docs": "https://tailwindcss.com/"
+    },
+    {
+        "technology": "Astro",
+        "docs": "https://astro.build/"
+    }
+]

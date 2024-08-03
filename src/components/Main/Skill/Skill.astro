@@ -1,0 +1,10 @@
+---
+import skills from "../../../data/skills.json"
+import SkillCard from "./SkillCard.astro";
+---
+
+{
+    skills.map(({ technology, docs}) => (
+        <SkillCard technology={technology} href={docs} />
+    ))
+}
