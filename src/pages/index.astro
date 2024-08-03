@@ -4,6 +4,8 @@ import HeadlineContainer from "../components/Main/HeadlineContainer.astro";
 import Proyect from "../components/Main/Proyect/Proyect.astro";
 import SectionContainer from "../components/Main/SectionContainer.astro";
 import SocialPill from "../components/SocialPill.astro";
+import Code from "../components/icons/Code.astro";
+import Person from "../components/icons/Person.astro";
 import GitHubIcon from "../components/icons/GitHubIcon.astro";
 import LinkedInIcon from "../components/icons/LinkedInIcon.astro";
 import Layout from "../layouts/Layout.astro";
@@ -84,26 +86,18 @@ import Layout from "../layouts/Layout.astro";
     </SectionContainer>
     <SectionContainer id="proyectos">
         <HeadlineContainer>
-            <svg
-                class="text-white size-5 sm:size-6 md:size-[1.875rem]"
-                slot="svg"
-                width="34"
-                height="34"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
-                    d="M7 8l-4 4l4 4"></path><path d="M17 8l4 4l-4 4"
-                ></path><path d="M14 4l-4 16"></path></svg
-            >
+            <Code slot="svg" />
             Proyectos
         </HeadlineContainer>
         <ul class="flex flex-col items-center gap-4 md:gap-8 mt-16">
             <Proyect />
         </ul>
+    </SectionContainer>
+    <SectionContainer id="sobre-mi" className="mt-24">
+        <HeadlineContainer>
+            <Person slot="svg" /> 
+            Sobre mí
+        </HeadlineContainer>
     </SectionContainer>
 </Layout>
 
