@@ -72,7 +72,7 @@ const proyects = [
         deploy: true,
     },
     {
-        proyectName: "Social Media Dashborad",
+        proyectName: "Social Media Dashboard",
         typeProyect: "Dashboard",
         technologies: [tags.ASTRO, tags.TAILWIND],
         description:
